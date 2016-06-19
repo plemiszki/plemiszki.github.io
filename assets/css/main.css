@@ -1994,7 +1994,7 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			background: url("images/overlay.png");
+			/*background: url("images/overlay.png");*/
 			border-radius: 0.35em;
 			content: '';
 			display: block;
@@ -2074,8 +2074,8 @@
 			.image.thumb:hover > .github:before,
 			.image.thumb:hover > .live:before,
 			.image.thumb:hover > .ghonly:before {
-				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				background: url("images/overlay.png");
+				opacity: 0.5;
 			}
 
 		.image img {
