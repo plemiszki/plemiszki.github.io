@@ -2050,8 +2050,8 @@
 			}
 
 			.image.thumb > .ghonly:after {
-				left: 50%;
-				top: 50%;
+				left: 36%;
+				top: 44%;
 			}
 
 			.image.thumb > .github:hover:after,
