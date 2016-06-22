@@ -2536,6 +2536,9 @@
 
 	.section-header {
 		color: #006201;
+		font-family: 'Lora', serif;
+		font-weight: 700;
+		font-size: 20px;
 	}
 
 	.nav-icon:before {
@@ -2571,6 +2574,12 @@
 
 	.oran {
 		font-family: 'Oranienbaum', serif;
+	}
+
+	.project-title {
+		color: black;
+		font-family: 'Lora', serif;
+		font-size: 18px;
 	}
 
 		#header strong, #header b {
@@ -2637,7 +2646,7 @@
 	#main {
 		margin-left: 35%;
 		max-width: 54em;
-		padding: 8em 4em 4em 4em;
+		padding: 4em 4em 4em 4em;
 		width: calc(100% - 35%);
 	}
 
