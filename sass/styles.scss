@@ -1,0 +1,83 @@
+$green: #28b059;
+
+body {
+  background-color: black;
+  font-family: 'TeachableSans-Regular';
+  color: white;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.7px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  @include breakpoint(md) {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  h1 {
+    vertical-align: baseline;
+    font-size: 36px;
+
+    @include breakpoint(xs-sm) {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    @include breakpoint(md) {
+      margin-bottom: 30px;
+    }
+  }
+
+  nav {
+    font-size: 36px;
+    @include breakpoint(xs-sm) {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    @include breakpoint(md) {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 20px;
+    }
+
+    a {
+      margin-right: 20px;
+    }
+  }
+
+  h2 {
+    font-family: 'TeachableSans-Bold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: $green;
+    margin-bottom: 12px;
+  }
+
+  p, ul {
+    margin-bottom: 30px;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+  }
+
+  hr {
+    border-top: solid 1px gray;
+    margin-bottom: 40px;
+  }
+
+  .hidden-xs-sm {
+    @include breakpoint(xs-sm) {
+      display: none;
+    }
+  }
+
+  .hidden-md {
+    @include breakpoint(md) {
+      display: none;
+    }
+  }
+}
