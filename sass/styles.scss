@@ -45,6 +45,12 @@ body {
     a {
       margin-right: 20px;
     }
+
+    a:last-of-type {
+      @include breakpoint(xs-sm) {
+        margin-right: 0;
+      }
+    }
   }
 
   h2 {
