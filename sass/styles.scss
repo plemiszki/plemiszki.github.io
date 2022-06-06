@@ -64,16 +64,14 @@ body {
     margin-bottom: 12px;
   }
 
-  p, ul {
-    margin-bottom: 30px;
+  a, a:hover, a:focus {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: lightgray;
   }
 
-  li {
-    list-style: disc;
-    list-style-position: inside;
-    @include breakpoint(xs-sm) {
-      list-style: none;
-    }
+  p, ul {
+    margin-bottom: 30px;
   }
 
   hr {
